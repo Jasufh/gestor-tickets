@@ -1,0 +1,1 @@
+<img src="{{ asset('images/UDG-B.svg') }}" alt="CUCEA-UDG" width="35">

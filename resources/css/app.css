@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.select2-container--default .select2-selection--single {
+    background-color: #ffffff !important;
+    border: 1px solid #aaa !important;
+    border-radius: 4px !important;
+    border-color: #6b7280 !important;
+    border-radius: var(--bs-border-radius-lg) !important;
+    border-width: 1px !important;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+
+}
+
+.select2-container .select2-selection--single {
+
+    height: 41px  !important;
+}
+/* para que se vea los collapse etc */
+.collapse.show {
+    visibility: visible;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e") !important;
+    background-position: right 0.5rem center !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.5em 1.5em !important;
+    padding-right: 2.5rem !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+border-width: 0 !important;
+
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important;
+}
+
+[type='text']:focus, 
+input:where(:not([type])):focus, 
+textarea:focus, 
+select:focus {
+    --tw-ring-shadow: rgba(0, 0, 0, 1); /* Establece el color del box-shadow con opacidad del 100% */
+}
+
+.btn-outline-success{
+
+    --bs-btn-hover-bg: #29ad3f !important;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: #fd1515 !important;
+    --bs-tooltip-color: var(--bs-white);
+  }
+
